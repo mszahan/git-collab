@@ -11,5 +11,9 @@ def fibonacci(n):
         yield a
         a, b = b, a+b
 
+<<<<<<< HEAD
 fibo_sequence = list(fibonacci(20))
 print(fibo_sequence)
+=======
+print(list(fibonacci(20)))
+>>>>>>> ba7ebb03caa9d8521dbc51d48c3673e090267e71
