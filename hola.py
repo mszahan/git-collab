@@ -12,4 +12,5 @@ def fibonacci(n):
         a, b = b, a+b
 
 fibo_sequence = list(fibonacci(20))
+fibo_sequence = 20
 print(fibo_sequence)
