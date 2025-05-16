@@ -11,4 +11,4 @@ def fibonacci(n):
         yield a
         a, b = b, a+b
 
-print(list(fibonacci(10)))
+print(list(fibonacci(20)))
